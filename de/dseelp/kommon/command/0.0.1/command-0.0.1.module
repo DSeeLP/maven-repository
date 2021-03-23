@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.dseelp.kommon",
+    "module": "command",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7",
+      "buildId": "w4mgr3rqcnhttcsbr7jzjqb5mu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "command-0.0.1.jar",
+          "url": "command-0.0.1.jar",
+          "size": 30997,
+          "sha512": "6ab07c8452ac5060baa849a9168816082b4b776ddb9de5bb42fc7f243fd0dd619f9b22a68ef0d5a26db3e5397e271710d5c2771d689a9ac612942bafd7debd90",
+          "sha256": "47c3651e100e4c66bbfdd942e9cc985a29bd97bf22c335ba3dcb1dc580d6eb5e",
+          "sha1": "f2f0968d9eaab6a651d3e21fa944bc610439f7d1",
+          "md5": "5d84646ff0e08a51e6f005fa19c1349f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "command-0.0.1.jar",
+          "url": "command-0.0.1.jar",
+          "size": 30997,
+          "sha512": "6ab07c8452ac5060baa849a9168816082b4b776ddb9de5bb42fc7f243fd0dd619f9b22a68ef0d5a26db3e5397e271710d5c2771d689a9ac612942bafd7debd90",
+          "sha256": "47c3651e100e4c66bbfdd942e9cc985a29bd97bf22c335ba3dcb1dc580d6eb5e",
+          "sha1": "f2f0968d9eaab6a651d3e21fa944bc610439f7d1",
+          "md5": "5d84646ff0e08a51e6f005fa19c1349f"
+        }
+      ]
+    }
+  ]
+}
