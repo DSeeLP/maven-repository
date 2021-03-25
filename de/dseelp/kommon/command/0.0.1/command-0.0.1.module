@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.7",
-      "buildId": "w4mgr3rqcnhttcsbr7jzjqb5mu"
+      "buildId": "f7mwrczhfbhdjdb6yvwsx5s5nu"
     }
   },
   "variants": [
@@ -37,11 +37,11 @@
         {
           "name": "command-0.0.1.jar",
           "url": "command-0.0.1.jar",
-          "size": 30997,
-          "sha512": "6ab07c8452ac5060baa849a9168816082b4b776ddb9de5bb42fc7f243fd0dd619f9b22a68ef0d5a26db3e5397e271710d5c2771d689a9ac612942bafd7debd90",
-          "sha256": "47c3651e100e4c66bbfdd942e9cc985a29bd97bf22c335ba3dcb1dc580d6eb5e",
-          "sha1": "f2f0968d9eaab6a651d3e21fa944bc610439f7d1",
-          "md5": "5d84646ff0e08a51e6f005fa19c1349f"
+          "size": 43586,
+          "sha512": "0927aff175a60c25e44dc257e1d56e0d3ad56ada882d840b3194bd41622a178bbfae744eddc9888a1dc8374f4875a5c67911e86a6eb73cdb5f4b8cbb8e97bcfe",
+          "sha256": "f409b958156e23edfbe2bcde04daf2ecf8af314d1092376af91528d115d8f0b2",
+          "sha1": "c3c9757383426b9a1d80368a2465338eaa303019",
+          "md5": "6f22e6936b3b08460426cd4bb9774bbb"
         }
       ]
     },
@@ -70,6 +70,13 @@
           }
         },
         {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
           "group": "org.jetbrains.kotlinx",
           "module": "kotlinx-coroutines-core",
           "version": {
@@ -81,11 +88,11 @@
         {
           "name": "command-0.0.1.jar",
           "url": "command-0.0.1.jar",
-          "size": 30997,
-          "sha512": "6ab07c8452ac5060baa849a9168816082b4b776ddb9de5bb42fc7f243fd0dd619f9b22a68ef0d5a26db3e5397e271710d5c2771d689a9ac612942bafd7debd90",
-          "sha256": "47c3651e100e4c66bbfdd942e9cc985a29bd97bf22c335ba3dcb1dc580d6eb5e",
-          "sha1": "f2f0968d9eaab6a651d3e21fa944bc610439f7d1",
-          "md5": "5d84646ff0e08a51e6f005fa19c1349f"
+          "size": 43586,
+          "sha512": "0927aff175a60c25e44dc257e1d56e0d3ad56ada882d840b3194bd41622a178bbfae744eddc9888a1dc8374f4875a5c67911e86a6eb73cdb5f4b8cbb8e97bcfe",
+          "sha256": "f409b958156e23edfbe2bcde04daf2ecf8af314d1092376af91528d115d8f0b2",
+          "sha1": "c3c9757383426b9a1d80368a2465338eaa303019",
+          "md5": "6f22e6936b3b08460426cd4bb9774bbb"
         }
       ]
     }
